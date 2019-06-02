@@ -37,7 +37,7 @@ a {
 #top a:link {
   color: white;
   text-decoration: none;
-  }
+}
 
 /* visited link */
 #top a:visited {
@@ -57,3 +57,6 @@ a {
   text-decoration: none;
 }
 
+#content {
+  max-width: 500px;
+}
