@@ -48,16 +48,6 @@ img {
   max-width: 620px;
 }
 
-.iframe-text {
-  max-width: 100%;
-  height: auto;
-}
-
-#embed {
-  width: 100%;
-  height: auto;
-}
-
 div, p {
   font-family: Verdana, sans-serif;
 }
