@@ -8,6 +8,10 @@ h1 {
   margin-bottom: 4px;
 }
 
+.left, .right {
+  float: left;
+}
+
 div, p {
   font-family: Verdana, sans-serif;
 }
@@ -56,5 +60,5 @@ a {
 }
 
 #content {
-  max-width: 500px;
+  max-width: 600px;
 }
