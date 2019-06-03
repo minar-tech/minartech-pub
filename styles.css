@@ -33,12 +33,18 @@ img {
 }
 
 .content {
-  margin-left: 40px;
+
+}
+
+.left-pad {
+  width: 40px;
+  height: 8px;
+  float: left;
 }
 
 .video-box {
   vertical-align: top;
-  padding: 9px 0px 0px 40px;
+  padding: 9px 0px 0px 0px;
   float: left;
 }
 
@@ -47,7 +53,7 @@ img {
   float: left;
   width: 100%;
   max-width: 620px;
-  min-height: 620px;
+  height: 620px;
 }
 
 div, p {
