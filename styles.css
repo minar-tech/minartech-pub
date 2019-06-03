@@ -53,6 +53,11 @@ img {
   height: auto;
 }
 
+#embed {
+  width: 100%;
+  height: auto;
+}
+
 div, p {
   font-family: Verdana, sans-serif;
 }
