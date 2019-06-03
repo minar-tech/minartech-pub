@@ -10,6 +10,9 @@ h1 {
 
 .container {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
   float: left;
 }
 
@@ -48,29 +51,29 @@ a {
 }
 
 /* unvisited link */
-#header a:link {
+.header a:link {
   color: white;
   text-decoration: none;
 }
 
 /* visited link */
-#header a:visited {
+.header a:visited {
   color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-#header a:hover {
+.header a:hover {
   color: gainsboro;
   text-decoration: none;
 }
 
 /* selected link */
-#header a:active {
+.header a:active {
   color: white;
   text-decoration: none;
 }
 
-#content {
+.content {
   max-width: 600px;
 }
