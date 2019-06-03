@@ -33,25 +33,25 @@ a {
 }
 
 /* unvisited link */
-#top a:link {
+#header a:link {
   color: white;
   text-decoration: none;
 }
 
 /* visited link */
-#top a:visited {
+#header a:visited {
   color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-#top a:hover {
+#header a:hover {
   color: gainsboro;
   text-decoration: none;
 }
 
 /* selected link */
-#top a:active {
+#header a:active {
   color: white;
   text-decoration: none;
 }
