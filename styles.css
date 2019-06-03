@@ -46,7 +46,7 @@ img {
   vertical-align: top;
   float: left;
   max-width: 620px;
-  max-height: 620px;
+  max-height: auto;
 }
 
 div, p {
