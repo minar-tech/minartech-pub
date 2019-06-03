@@ -33,7 +33,7 @@ img {
 }
 
 .content {
-
+  float: left;
 }
 
 .left-pad {
