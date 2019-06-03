@@ -47,8 +47,7 @@ img {
   float: left;
   width: 100%;
   max-width: 620px;
-  height: 100%;
-  max-height: 800px;
+  min-height: 620px;
 }
 
 div, p {
