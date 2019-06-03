@@ -23,7 +23,7 @@ img {
 
 .header {
   width: 100%;
-  margin: 8px 0px 8px 8px;
+  margin: 8px 4px 0px 4px;
   padding: 2px 0px 2px 42px;
   color: white;
   background-color: red;
@@ -34,6 +34,7 @@ img {
 
 .content {
   float: left;
+  padding-left: 4px;
 }
 
 .left-pad {
