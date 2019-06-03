@@ -45,8 +45,8 @@ img {
 .content-box {
   vertical-align: top;
   float: left;
-  width: 620px;
-  height: 620px;
+  max-width: 620px;
+  max-height: 800px;
 }
 
 div, p {
