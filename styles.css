@@ -8,7 +8,14 @@ h1 {
   margin-bottom: 4px;
 }
 
-.left, .right {
+#video-box {
+  vertical-align: top;
+  padding: 9px 0px 0px 40px;
+  float: left;
+}
+
+#content-box {
+  vertical-align: top;
   float: left;
 }
 
