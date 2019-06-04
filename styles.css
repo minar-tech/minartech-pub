@@ -51,6 +51,7 @@ img {
 
 .content-box {
   vertical-align: top;
+  padding-top: 8px;
   float: left;
   width: 100%;
   max-width: 620px;
