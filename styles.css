@@ -80,7 +80,7 @@ div, p {
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #DA0000;
+  background-color: #FF9933;
   color: white;
 }
 
