@@ -25,6 +25,7 @@ img {
   position: relative;
   overflow: hidden;
   padding: 2px 0px 2px 42px;
+  margin-top: 8px;
   color: white;
   background-color: red;
   font-weight: bold;
