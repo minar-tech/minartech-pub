@@ -56,7 +56,7 @@ div, p {
 
  /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #239F40;
   overflow: hidden;
 }
 
@@ -79,7 +79,7 @@ div, p {
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #FF0000;
+  background-color: #DA0000;
   color: white;
 }
 
