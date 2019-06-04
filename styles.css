@@ -5,6 +5,7 @@ body {
 
 h1 {
   font-family: Verdana, sans-serif;
+  color: #000080;
   margin-bottom: 4px;
 }
 
@@ -56,7 +57,7 @@ div, p {
 
  /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #239F40;
+  background-color: #138808;
   overflow: hidden;
 }
 
