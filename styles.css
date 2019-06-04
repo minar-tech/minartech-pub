@@ -51,7 +51,7 @@ img {
 
 div, p {
   font-family: Verdana, sans-serif;
-  line-height: 1.5;
+  line-height: gainsboro;
 }
 
 /* ### https://www.w3schools.com/howto/howto_js_topnav_responsive.asp ### */
