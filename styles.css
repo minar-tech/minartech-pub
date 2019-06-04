@@ -22,9 +22,9 @@ img {
 }
 
 .header {
-width: 100%;
   position: relative;
   overflow: hidden;
+top: 8px;
   padding: 2px 0px 2px 42px;
   margin-top: 8px;
   color: white;
