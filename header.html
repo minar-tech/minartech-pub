@@ -1,4 +1,17 @@
 <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="pages/vision.html">Vision</a>
+  <a href="pages/resources.html">Resources</a>
+  <a href="pages/projects.html">Projects</a>
+  <a href="pages/reports.html">Reports</a>
+  <a href="pages/funding.html">Funding</a>
+  <a href="pages/join.html">Join</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="topnav" id="myDIV">
   <span class="btn"><a href="#home" class="active">Home</a></span>
   <span class="btn"><a href="pages/vision.html">Vision</a></span>
   <span class="btn"><a href="pages/resources.html">Resources</a></span>
@@ -10,3 +23,16 @@
     <i class="fa fa-bars"></i>
   </a>
 </div>
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>

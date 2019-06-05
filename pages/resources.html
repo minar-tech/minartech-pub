@@ -1,1 +1,56 @@
-Resources
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Minar Technologies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="w3.js"></script>
+</head>
+
+<body>
+
+  <div class="topnav" id="myDIV">
+    <span class="btn"><a href="#home" class="active">Home</a></span>
+    <span class="btn"><a href="pages/vision.html">Vision</a></span>
+    <span class="btn"><a href="pages/resources.html">Resources</a></span>
+    <span class="btn"><a href="pages/projects.html">Projects</a></span>
+    <span class="btn"><a href="pages/reports.html">Reports</a></span>
+    <span class="btn"><a href="pages/funding.html">Funding</a></span>
+    <span class="btn"><a href="pages/join.html">Join</a></span>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  Resources
+
+  <script>
+    w3.includeHTML();
+  </script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+</body>
