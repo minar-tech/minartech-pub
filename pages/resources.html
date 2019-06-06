@@ -7,19 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="w3.js"></script>
+  <script src="/w3.js"></script>
 </head>
 
 <body>
 
-  <div class="topnav" id="myDIV">
-    <a class="btn" href="#home" class="active">Home</a>
-    <a class="btn" href="pages/vision.html">Vision</a>
-    <a class="btn" href="pages/resources.html">Resources</a>
-    <a class="btn" href="pages/projects.html">Projects</a>
-    <a class="btn" href="pages/reports.html">Reports</a>
-    <a class="btn" href="pages/funding.html">Funding</a>
-    <a class="btn" href="pages/join.html">Join</a>
+  <div class="topnav" id="myTopnav">
+    <a class="btn" href="../index.html">Home</a>
+    <a class="btn" href="vision.html">Vision</a>
+    <a class="btn" href="resources.html">Resources</a>
+    <a class="btn" href="projects.html">Projects</a>
+    <a class="btn" href="reports.html">Reports</a>
+    <a class="btn" href="funding.html">Funding</a>
+    <a class="btn" href="join.html">Join</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -33,11 +33,29 @@
 
   <script>
     function myFunction() {
-      var x = document.getElementById("myDIV");
+      var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
         x.className += " responsive";
       } else {
         x.className = "topnav";
+      }
+    }
+  </script>
+  <script>
+    var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/') + 1);
+
+    // Get the container element
+    var btnContainer = document.getElementById("myTopnav");
+    // Get all buttons with class="btn" inside the container
+    var btns = btnContainer.getElementsByClassName("btn");
+    // Loop through the buttons and add the active class to the current/clicked button
+    var cur_filename;
+    for (var i = 0; i < btns.length; i++) {
+      cur_url = btns[i];
+      cur_filename = cur_url.getAttribute("href");
+      if (cur_filename == filename) {
+        console.log(cur_url.className += " active");
       }
     }
   </script>
