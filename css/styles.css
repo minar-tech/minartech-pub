@@ -1,3 +1,11 @@
+/* COLOR SCHEME
+#29648A blue
+#F13C20 red
+#14A76C green
+#747474 grey border
+#EFEFEF light grey background
+*/
+
 body {
   padding: 0;
   margin: 0;
@@ -196,25 +204,31 @@ instead of horizontally) */
 }
 */
 .content a {
-  color: #000080;
+  color: #29648A;
+  text-decoration: none;
+}
+
+.fas {
+  color: #666;
+  margin: 0 4px;
+}
+
+.date {
+  color: #666;
 }
 
 .content a:link {
-  color: #000080;
-  text-decoration: underline;
+  color: #29648A;
 }
 
 .content a:visited {
-  color: #000080;
-  text-decoration: underline;
+  color: #29648A;
 }
 
 .content a:hover {
-  color: #FF0000;
-  text-decoration: underline;
+  color: #14A76C;
 }
 
 .content a:active {
-  color: #000080;
-  text-decoration: underline;
+  color: #29648A;
 }
