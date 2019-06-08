@@ -24,6 +24,10 @@ div, p {
   color: #29648A;
 }
 
+.home {
+  background-color: #F13C20;
+}
+
 .saffron-box {
   border-radius: 12px;
   -moz-border-radius: 12px;
@@ -48,7 +52,7 @@ img {
 .content {
   float: left;
   padding-left: 8px;
-  margin: 0;
+  margin: 0 0 40px 0;
   max-width: 800px;
 }
 
