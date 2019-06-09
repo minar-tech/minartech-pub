@@ -30,11 +30,20 @@ div, p {
   line-height: 1.4;
 }
 
+ul {
+  list-style-type: square;
+  padding-left: 18px;
+}
+
 .first-line {
   margin-top: 8px;
 }
 
 .see-all {
+  margin-top: -10px;
+}
+
+.read-doc {
   margin-top: -10px;
 }
 
@@ -72,11 +81,11 @@ img {
   float: left;
   padding-left: 8px;
   margin: 0 0 40px 0;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .left-pad {
-  width: 40px;
+  width: 80px;
   height: 2px;
   float: left;
 }
