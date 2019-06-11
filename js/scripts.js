@@ -28,6 +28,7 @@ function activateNaviButton(param) {
   // ---------- GET query variable for p ----------
   var query = window.location.search.substring(param); // --> ?p=funding
   var file_w_param = "t1.html" + query // --> t1.html?p=home
+  file_w_param = file_w_param.match(/^[a-z][0-9]\.html\?p=[a-z]*/);
 
   // ---------- Make navi button active ----------
   var url = window.location.pathname;
