@@ -42,7 +42,7 @@ li {
 }
 
 strong {
-color: #29648A
+  color: #29648A
 }
 
 .image {
@@ -99,10 +99,10 @@ img {
 
 .content {
   float: left;
-  padding-left: 8px;
+  padding: 0 8px;
   margin: 0 0 40px 0;
   max-width: 600px;
-font-size: 11.5pt;
+  font-size: 11.5pt;
 }
 
 .left-pad {
