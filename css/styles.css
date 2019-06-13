@@ -81,7 +81,7 @@ strong {
 .feature-box {
   width: 100%;
   background-color: #EFEFEF;
-  padding: 4px;
+  padding: 4px 8px;
   margin-top: 20px;
   margin-bottom: -16px;
 }
