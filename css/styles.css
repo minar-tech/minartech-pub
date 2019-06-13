@@ -78,6 +78,14 @@ strong {
   background-color: #F13C20;
 }
 
+.feature-box {
+  width: 100%;
+  background-color: #EFEFEF;
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: -16px;
+}
+
 .saffron-box {
   border-radius: 12px;
   -moz-border-radius: 12px;
