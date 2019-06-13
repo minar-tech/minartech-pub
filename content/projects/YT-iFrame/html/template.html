@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/w3.js"></script>
+</head>
+
+<body>
+
+  <div id="include"></div>
+
+  <script language="JavaScript">
+    var parameters;
+    var temp;
+    var m;
+    //var n;
+
+    function getUrlParams() {
+      var parameters = location.search.substring(1).split("&"); // ["m=23", "n=html"]
+      var temp = parameters[0].split("="); // ["m", "23"]
+      m = unescape(temp[1]); // 23
+      //temp = parameters[1].split("=");
+      //n = unescape(temp[1]);
+
+      // /content/projects/YT-iFrame/html/template.html?m=23&n=html
+      //source = "<img src='../png/" + m + ".png'>";
+      var include_content = "<div w3-include-html=\"/content/projects/YT-iFrame/html/" + m + ".html\"></div>"
+      document.getElementById("include").innerHTML = include_content;
+    }
+    getUrlParams();
+  </script>
+
+  <script>
+    w3.includeHTML();
+  </script>
+</body>
+
+</html>
