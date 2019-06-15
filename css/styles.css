@@ -39,12 +39,16 @@ ul {
   padding-left: 1.2rem;
 }
 
+.sublist {
+  padding-top: 4px;
+}
+
 li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 strong {
-  color: #29648A
+  color: #29648A;
 }
 
 img {
@@ -75,7 +79,6 @@ img {
 }
 
 .highlight {
-  font-weight: bold;
   color: #29648A;
 }
 
@@ -115,6 +118,15 @@ img {
   font-size: 11.5pt;
 }
 
+.crumbs {
+  float: left;
+  clear: left;
+  padding: 0;
+  margin: 8px;
+  max-width: 600px;
+  font-size: 11.5pt;
+}
+
 .left-pad {
   width: 80px;
   height: 2px;
@@ -125,8 +137,9 @@ img {
   font-size: 11.5pt;
   line-height: 1;
   vertical-align: top;
-  padding: 20px 8px 0px 8px;
+  padding: 0 8px 0 8px;
   float: left;
+  clear: left;
 }
 
 .content-box {
@@ -296,5 +309,22 @@ instead of horizontally) */
 }
 
 .content a:active {
+  color: #29648A;
+}
+
+/* crumbs */
+.crumbs a:link {
+  color: #29648A;
+}
+
+.crumbs a:visited {
+  color: #29648A;
+}
+
+.crumbs a:hover {
+  color: #14A76C;
+}
+
+.crumbs a:active {
   color: #29648A;
 }
