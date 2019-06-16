@@ -70,6 +70,15 @@ img {
   margin-top: 8px;
 }
 
+.list-description {
+  margin: 6px 0 4px 0;
+  line-height: 1.4;
+}
+
+.list-links {
+  margin: 3px 0 16px 0;
+}
+
 .see-all {
   margin-top: -10px;
 }
