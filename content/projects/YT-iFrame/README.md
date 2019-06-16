@@ -1,4 +1,4 @@
-#Synchronizing YouTube video with HTML
+# Synchronizing YouTube video with HTML
 
 Supporting learning and teaching of Hindi, Urdu, and Persian.
 
