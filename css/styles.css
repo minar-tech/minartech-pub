@@ -48,7 +48,8 @@ li {
 }
 
 strong {
-  color: #29648A;
+  color: #0F3D7E;
+  font-weight: 600;
 }
 
 img {
@@ -298,7 +299,7 @@ instead of horizontally) */
 
 .fas {
   color: #666;
-  margin: 0 8px 0 0;
+  margin: 0 4px 0 0;
 }
 
 .date {
