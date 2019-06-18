@@ -47,6 +47,10 @@ li {
   margin-bottom: 16px;
 }
 
+.no-margin {
+margin: 0;
+}
+
 strong {
   color: #0F3D7E;
   font-weight: 600;
@@ -90,6 +94,10 @@ img {
 
 .highlight {
   color: #29648A;
+}
+
+.indent {
+padding: 0 0 0 23px;
 }
 
 .home {
