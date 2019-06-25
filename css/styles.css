@@ -6,8 +6,17 @@
 #0F3D7E strong (dark blue) text
 #747474 grey border
 #EFEFEF light grey background
-*/
 @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+*/
+@font-face {
+  font-family: ScheherazadeRW;
+  src: url(fonts/Scheherazade-Regular.woff);
+}
+
+@font-face {
+  font-family: Mehr;
+  src: url(fonts/Mehr.ttf);
+}
 
 body {
   padding: 0;
@@ -179,8 +188,16 @@ img {
 
 .persian {
   direction: rtl;
-  font-family: 'Scheherazade', serif;
+  font-family: 'ScheherazadeRW';
   font-size: 24pt;
+  float: left;
+  margin: 20px;
+}
+
+.urdu {
+  direction: rtl;
+  font-family: 'Mehr';
+  font-size: 22pt;
   float: left;
   margin: 20px;
 }
