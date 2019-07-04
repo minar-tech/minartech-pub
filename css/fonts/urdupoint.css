@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'nastliq';
+  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot');
+  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot?#iefix') format('embedded-opentype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.woff') format('woff'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.ttf') format('truetype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.svg#NafeesRegular') format('svg');
+}
+
+.urdu {
+  font-family: 'nastliq';
+}
+
+.mainTxt {
+  FONT-SIZE: 16px;
+  COLOR: #000;
+  FONT-FAMILY: "nastliq";
+  LINE-HEIGHT: 32px;
+}
+
+/*urdu menu css start*/
+.urdu_nav {
+  text-align: right;
+  direction: rtl;
+  FONT-FAMILY: "nastliq";
+}
+
+.urdu_nav li {
+  text-align: right;
+  direction: rtl;
+}
+
+.urdu_nav .elm__link i {
+  margin-right: 5px;
+}
+
+.urdu_nav_mob #elmobile, .urdu_nav_mob .m-elm__list, .urdu_nav_mob .m-elm__list li {
+  text-align: right;
+  direction: rtl;
+  FONT-FAMILY: "nastliq";
+}
+
+.urdu_nav_mob .m-elm__link--sub {
+  border-left: none !important;
+  border-right: 10px solid #448D00;
+}
+
+/*=====================*/
+.items_list_ur {
+  float: right;
+  width: 100%;
+}
+
+.items_list_ur li {
+  float: right;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #B2B2B2;
+}
+
+.items_list_ur li:last-child {
+  border-bottom: none;
+}
+
+.items_list_ur li a {
+  float: right;
+  width: 100%;
+}
+
+.items_list_ur li img {
+  float: right;
+  margin-left: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+
+.items_list_ur li .title_ur {
+  text-align: right;
+  direction: rtl;
+  font-family: 'nastliq';
+  font-size: 18px;
+  line-height: 36px;
+  color: #063F4F;
+}
+
+.items_list_ur li .title_en {
+  text-align: right;
+  direction: ltr;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: arial;
+}
+
+.news_article {
+  display: block;
+}
+
+.news_article figure {
+  margin-bottom: 15px;
+}
+
+.news_article figure img {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 4px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
+}
+
+.news_article figure figcaption {
+  font-size: 15px;
+  font-family: 'nastliq';
+  text-align: center;
+  line-height: 24px;
+}
+
+.news_article h1 {
+  color: #000080;
+  text-align: justify;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.news_article h2 {
+  color: #333;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.news_article .detail_txt {
+  color: #000;
+  font-size: 17px;
+  line-height: 34px;
+  text-align: justify;
+}
+
+.news_article .detail_txt p, .news_article .detail_txt span, .news_article .detail_txt div {
+  color: #000;
+}
+
+.news_article .detail_txt a {
+  color: #447294;
+}
+
+.news_article .detail_txt .cnt_banner {
+  float: right;
+  margin: 0 0 2px 6px;
+}
+
+.news_article .up_more_cnt_new {
+  display: none;
+}
+
+.news_article .gall_box {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  background: #f7f7f7;
+  border: 1px solid #ebebeb;
+  padding: 10px 15px;
+}
+
+.news_article .gall_box h3 {
+  color: #447294;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.news_article .gall_box .big_item {
+  text-align: center;
+}
+
+.news_article .gall_box .small_items {
+  text-align: center;
+}
+
+.news_article .gall_box .small_items a {
+  display: inline-block;
+}
+
+.news_article a.txt_link {
+  color: #000;
+}
+
+.news_article .twitter-tweet, .news_article .twitter-video, .news_article .instagram-media, .news_article iframe {
+  margin: 5px auto !important;
+  display: block;
+}
+
+.txt_banner {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+@media(max-width:600px) {
+  .txt_banner {
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+}
+
+figure.mid_art {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+figure.mid_art img {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+figure.mid_art figcaption {
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+}

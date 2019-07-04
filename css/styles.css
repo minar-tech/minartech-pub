@@ -14,8 +14,24 @@
 }
 
 @font-face {
+  font-family: 'nastliq';
+  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot');
+  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot?#iefix') format('embedded-opentype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.woff') format('woff'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.ttf') format('truetype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.svg#NafeesRegular') format('svg');
+}
+
+@font-face {
   font-family: Mehr;
   src: url(fonts/Mehr.ttf);
+}
+
+@font-face {
+  font-family: JameelNooriNastaleeq;
+  src: url(fonts/JameelNooriNastaleeq.ttf);
+}
+
+@font-face {
+  font-family: NafeesNastaleeq;
+  src: url(fonts/nafees_web_naskhshipped.eot);
 }
 
 body {
@@ -196,7 +212,31 @@ img {
 
 .urdu {
   direction: rtl;
+  font-family: 'nastliq';
+  font-size: 22pt;
+  float: left;
+  margin: 20px;
+}
+
+.urdu-mehr {
+  direction: rtl;
   font-family: 'Mehr';
+  font-size: 22pt;
+  float: left;
+  margin: 20px;
+}
+
+.urdu-jameel-noori-nastaleeq {
+  direction: rtl;
+  font-family: 'Jameel_Noori_Nastaleeq';
+  font-size: 22pt;
+  float: left;
+  margin: 20px;
+}
+
+.urdu-nafees-nastaleeq {
+  direction: rtl;
+  font-family: 'NafeesNastaleeq';
   font-size: 22pt;
   float: left;
   margin: 20px;
@@ -208,6 +248,14 @@ img {
   margin: 0px 20px 20px 60px;
   font-size: 14pt;
   line-height: 1.8;
+}
+
+.latin-p {
+  float: left;
+  clear: left;
+  margin: 0 0 20px 0;
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 .maintext-head {
