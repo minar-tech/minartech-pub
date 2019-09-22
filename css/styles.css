@@ -34,6 +34,11 @@
   src: url(fonts/nafees_web_naskhshipped.eot);
 }
 
+@font-face {
+  font-family: IranNastaliq;
+  src: url(fonts/IranNastaliq/IranNastaliq-Web.ttf);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -105,6 +110,11 @@ img {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: italic;
   padding-top: 0;
+}
+
+.n {
+  color: #29648A;
+  font-size: 14px;
 }
 
 .first-line {
@@ -210,11 +220,50 @@ img {
   margin: 20px;
 }
 
+.persian-hea {
+  direction: rtl;
+  font-family: 'ScheherazadeRW';
+  font-size: 48pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.persian-byline {
+  direction: rtl;
+  font-family: 'ScheherazadeRW';
+  font-size: 24pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
+  margin: 20px;
+}
+
 .urdu {
   direction: rtl;
   font-family: 'nastliq';
   font-size: 22pt;
+  line-height: 2.5;
   float: left;
+  margin: 20px;
+}
+
+.urdu-hea {
+  direction: rtl;
+  font-family: 'nastliq';
+  font-size: 32pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.urdu-byline {
+  direction: rtl;
+  font-family: 'nastliq';
+  font-size: 18pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
   margin: 20px;
 }
 
@@ -222,7 +271,27 @@ img {
   direction: rtl;
   font-family: 'Mehr';
   font-size: 22pt;
+  line-height: 2;
   float: left;
+  margin: 20px;
+}
+
+.urdu-mehr-hea {
+  direction: rtl;
+  font-family: 'Mehr';
+  font-size: 32pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.urdu-mehr-byline {
+  direction: rtl;
+  font-family: 'Mehr';
+  font-size: 18pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
   margin: 20px;
 }
 
@@ -239,6 +308,34 @@ img {
   font-family: 'NafeesNastaleeq';
   font-size: 22pt;
   float: left;
+  margin: 20px;
+}
+
+.iran-nastaliq {
+  direction: rtl;
+  font-family: 'IranNastaliq';
+  font-size: 22pt;
+  line-height: 2.0;
+  float: left;
+  margin: 20px;
+}
+
+.iran-nastaliq-hea {
+  direction: rtl;
+  font-family: 'IranNastaliq';
+  font-size: 32pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.iran-nastaliq-byline {
+  direction: rtl;
+  font-family: 'IranNastaliq';
+  font-size: 18pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
   margin: 20px;
 }
 
@@ -270,6 +367,11 @@ img {
 
 .maintext-body {
   padding: 0 0 8px 0;
+}
+
+.maintext-body-right {
+  padding: 0 0 8px 0;
+  text-align: right;
 }
 
 .featurebox-head {
