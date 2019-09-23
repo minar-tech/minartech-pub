@@ -16,7 +16,10 @@
 @font-face {
   font-family: 'nastliq';
   src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot');
-  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot?#iefix') format('embedded-opentype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.woff') format('woff'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.ttf') format('truetype'), url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.svg#NafeesRegular') format('svg');
+  src: url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.woff') format('woff'),
+    url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.ttf') format('truetype'),
+    url('https://cdn.urdupoint.com/daily/font-styles/urdupoint.com-webfont.svg#NafeesRegular') format('svg');
 }
 
 @font-face {
@@ -34,12 +37,46 @@
   src: url(fonts/nafees_web_naskhshipped.eot);
 }
 
+/* format added manually */
 @font-face {
   font-family: IranNastaliq;
-  src: url(fonts/IranNastaliq/IranNastaliq-Web.ttf);
-  /* src: url(fonts/IranNastaliq-Web.woff); */
-  /* src: url(fonts/IranNastaliq-Web.woff2); */
+  src: url(fonts/IranNastaliq/IranNastaliq-Web.ttf) format('truetype'),
+    url(fonts/IranNastaliq-Web.woff) format('woff'),
+    url(fonts/IranNastaliq-Web.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: BLotus;
+  src: url(fonts/BLOTUS/BLOTUS.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: BLotusBD;
+  src: url(fonts/BLOTUS/BLOTUSBD.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: BNazanin;
+  src: url(fonts/BNAZANIN/BNAZANIN.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: BNazaninBD;
+  src: url(fonts/BNAZANIN/BNAZNNBD.TTF) format('truetype');
+}
+
+/*
+@font-face {
+  font-family: IranNastaliq;
+  src: url(fonts/IranNastaliq2/IranNastaliq.ttf);
+}
+
+@font-face {
+  font-family: IranNastaliq;
+  src: url('http://fontonline.ir/fonts/IranNastaliq.eot?#') format('eot'),
+    url('http://fontonline.ir/fonts/IranNastaliq.ttf') format('truetype'),
+    url('http://fontonline.ir/fonts/IranNastaliq.woff') format('woff');
+}*/
 
 body {
   padding: 0;
@@ -317,7 +354,7 @@ img {
   direction: rtl;
   font-family: 'IranNastaliq';
   font-size: 22pt;
-  line-height: 2.0;
+  line-height: 3.0;
   float: left;
   margin: 20px;
 }
@@ -334,6 +371,62 @@ img {
 .iran-nastaliq-byline {
   direction: rtl;
   font-family: 'IranNastaliq';
+  font-size: 18pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
+  margin: 20px;
+}
+
+.b-lotus {
+  direction: rtl;
+  font-family: 'BLotus';
+  font-size: 22pt;
+  line-height: 2.0;
+  float: left;
+  margin: 20px;
+}
+
+.b-lotus-hea {
+  direction: rtl;
+  font-family: 'BLotusBD';
+  font-size: 32pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.b-lotus-byline {
+  direction: rtl;
+  font-family: 'BLotus';
+  font-size: 18pt;
+  line-height: 1.5;
+  float: right;
+  clear: right;
+  margin: 20px;
+}
+
+.b-nazanin {
+  direction: rtl;
+  font-family: 'BNazanin';
+  font-size: 22pt;
+  line-height: 2.0;
+  float: left;
+  margin: 20px;
+}
+
+.b-nazanin-hea {
+  direction: rtl;
+  font-family: 'BNazaninBD';
+  font-size: 32pt;
+  line-height: 1.5;
+  float: right;
+  margin: 20px;
+}
+
+.b-nazanin-byline {
+  direction: rtl;
+  font-family: 'BNazanin';
   font-size: 18pt;
   line-height: 1.5;
   float: right;
