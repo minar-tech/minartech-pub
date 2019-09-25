@@ -77,7 +77,6 @@
     url('http://fontonline.ir/fonts/IranNastaliq.ttf') format('truetype'),
     url('http://fontonline.ir/fonts/IranNastaliq.woff') format('woff');
 }*/
-
 body {
   padding: 0;
   margin: 0;
@@ -103,6 +102,15 @@ h3 {
   font-weight: bold;
   margin: 8px 0 0 0;
   color: #0F3D7E;
+}
+
+table, th, td {
+  width: auto;
+  border-collapse: collapse;
+  font-family: 'BLotus';
+  font-size: 16pt;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid #CCC;
 }
 
 div, p {
@@ -280,6 +288,8 @@ img {
 
 .urdu {
   direction: rtl;
+  font-family: 'BNazanin';
+  font-size: 22pt;
   font-family: 'nastliq';
   font-size: 22pt;
   line-height: 2.5;
