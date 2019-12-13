@@ -1,0 +1,25 @@
+http://wiki.languagetool.org/integration-on-websites
+
+<div class="content">
+  <div class="maintext-head">
+    <h1 id="funding">Persian Font Examples</h1>
+  </div>
+  <div class="maintext-intro">First attempts...</div>
+  <div class="maintext-body">
+
+    <form name="checkform" action="http://community.languagetool.org" method="post">
+      <p id="checktextpara">
+          <textarea id="checktext" name="text" style="width: 100%"
+            rows="6">Paste your own text here... or check check this text.</textarea>
+      </p>
+      <div>
+          <select name="lang" id="lang">
+              <option value="fa">Persian</option>
+          </select>
+          <input type="submit" name="_action_checkText"
+              value="Check Text" onClick="doit();return false;"> Powered by <a href="https://languagetool.org">languagetool.org</a>
+          <div id="feedbackErrorMessage" style="color: red;"></div>
+      </div>
+    </form>
+  </div>
+</div>
